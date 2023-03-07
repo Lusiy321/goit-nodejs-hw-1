@@ -1,5 +1,5 @@
 import { Command } from "commander";
-import { listContacts, getContactById, removeContact, addContact } from "./contacts";
+import { listContacts, getContactById, removeContact, addContact } from "./contacts.js";
 
 
 const program = new Command();
